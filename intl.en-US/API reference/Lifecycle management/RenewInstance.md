@@ -8,7 +8,7 @@ This API is used to renew a subscription instance.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|Yes|For more information, see [EN-US\_TP\_3172.md\#section\_hph\_dhp\_wbb](intl.en-US/API reference/Common Parameters.md#section_hph_dhp_wbb).|
+|<Common request parameters\>|-|Yes|For more information, see [Public parameters](intl.en-US/API reference/Common Parameters.md#section_hph_dhp_wbb).|
 |Action|String|Yes|Operation API name. Value: RenewInstance.|
 |InstanceId|String|Yes|Instance ID \(globally unique\)|
 |InstanceClass|String|No|Target type for configuration change. The type configuration can be changed when the instance is renewed. If the target type is different from the current type, the configuration is changed at the original expiration time.|
@@ -18,7 +18,7 @@ This API is used to renew a subscription instance.
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common return parameters\>| |For more information, see [EN-US\_TP\_3172.md\#section\_rjr\_zgp\_wbb](intl.en-US/API reference/Common Parameters.md#section_rjr_zgp_wbb).|
+|<Common return parameters\>| |For more information, see [Public return parameters](intl.en-US/API reference/Common Parameters.md#section_rjr_zgp_wbb).|
 |OrderId|String|Order ID|
 |EndTime|String|Expiration time of the instance after renewal|
 
