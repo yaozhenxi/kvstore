@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|是|参见[公共请求参数](intl.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
+|<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|操作接口名，取值：ModifyInstanceSpec。|
 |InstanceId|String|是|实例 ID（全局唯一）。|
 |InstanceClass|String|是|申请的 Redis 实例规格。参见实例规格表。|
@@ -17,7 +17,7 @@
 
 |名称|类型|描述|
 |--|--|--|
-|<公共请求参数\>|-|参见[公共返回参数](intl.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
+|<公共请求参数\>|-|参见[公共返回参数](cn.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
 |OrderId|String|订单 ID。|
 
 ## 请求示例 {#section_d3l_4kw_wbb .section}

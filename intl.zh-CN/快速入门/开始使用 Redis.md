@@ -11,7 +11,7 @@
 
 ## 快速入门流程图 {#section_zkz_3v5_tdb .section}
 
-若您初次使用云数据库 Redis 版，请先了解[使用限制](intl.zh-CN/快速入门/使用限制.md#)以及[关于 Redis 管理控制台](intl.zh-CN/快速入门/关于 Redis 管理控制台.md#)。
+若您初次使用云数据库 Redis 版，请先了解[使用限制](cn.zh-CN/快速入门/使用限制.md#)以及[关于 Redis 管理控制台](cn.zh-CN/快速入门/关于 Redis 管理控制台.md#)。
 
 通常，从新购实例到可以开始使用实例，您需要完成如下操作：
 

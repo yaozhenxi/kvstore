@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|是|参见[公共请求参数](intl.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
+|<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|系统规定参数，取值：DescribeSecurityIps。|
 |InstanceId|String|是|实例名|
 
@@ -16,7 +16,7 @@
 
 |名称|类型|描述|
 |--|--|--|
-|<公共返回参数\>|-|参见[公共返回参数](intl.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
+|<公共返回参数\>|-|参见[公共返回参数](cn.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
 |SecurityIpGroups|List|实例的 IP 白名单分组列表。|
 
 ## SecurityIpGroups 的参数 {#section_vpd_htv_pcb .section}

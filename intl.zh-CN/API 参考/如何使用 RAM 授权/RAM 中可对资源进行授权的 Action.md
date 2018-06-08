@@ -7,6 +7,7 @@ RAM 中可对资源进行授权的 Action 如下列表所示。
 -   ModifyInstanceSpec
 -   RenewInstance
 -   RenewMultiInstance
+-   TransformToPrePaid
 -   ModifyInstanceAttribute
 -   FlushInstance
 -   DescribeInstances

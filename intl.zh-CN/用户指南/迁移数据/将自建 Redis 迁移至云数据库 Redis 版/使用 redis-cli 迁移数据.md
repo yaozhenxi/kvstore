@@ -1,6 +1,6 @@
 # 使用 redis-cli 迁移数据 {#concept_bxn_fbv_vdb .concept}
 
-redis-cli 是 Redis 原生的命令行工具。云数据库 Redis 版支持通过 redis-cli 将已有的 Redis 数据导入到云数据库 Redis 版里，实现数据的无缝迁移。另外您也可以通过[DTS 导入数据](intl.zh-CN/用户指南/迁移数据/将自建 Redis 迁移至云数据库 Redis 版/使用 DTS 迁移数据.md#)。
+redis-cli 是 Redis 原生的命令行工具。云数据库 Redis 版支持通过 redis-cli 将已有的 Redis 数据导入到云数据库 Redis 版里，实现数据的无缝迁移。另外您也可以通过[DTS 导入数据](cn.zh-CN/用户指南/迁移数据/将自建 Redis 迁移至云数据库 Redis 版/使用 DTS 迁移数据.md#)。
 
 ## 注意事项 { .section}
 

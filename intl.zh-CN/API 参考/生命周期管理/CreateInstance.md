@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|是|参见[公共请求参数](intl.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
+|<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|操作接口名，取值：CreateInstance。|
 |InstanceName|String|否|实例名称。 名称为2-128个字符，以大小写字英文母或中文开头，不支持字符@/:=”<\>\{\[\]\}和空格。|
 |Password|String|否|实例密码。 字符类型，8-30个字符，需同时包含大写字母、小写字母和数字。 **说明：** 暂时不支持 !<\>\(\)\[\]\{\},\`~.-\_@\#$%^&\* 之类的特殊符号。
@@ -40,7 +40,7 @@
 
 |名称|参数类型|描述|
 |--|----|--|
-|<公共返回参数\>|-|参见[公共返回参数](intl.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
+|<公共返回参数\>|-|参见[公共返回参数](cn.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
 |InstanceId|String|实例 ID \(全局唯一\)。|
 |InstanceName|String|实例名称。|
 
