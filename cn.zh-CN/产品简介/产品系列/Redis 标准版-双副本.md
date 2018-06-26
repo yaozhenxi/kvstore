@@ -4,7 +4,7 @@
 
 云数据库 Redis 标准版-双副本模式采用主从（Replication）模式搭建。主节点提供日常服务访问，备节点提供 HA 高可用，当主节点发生故障，系统会自动在30秒切换至备节点，保证业务平稳运行。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/3105/871_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/3105/6584_zh-CN.png)
 
 ## 特点 {#section_tk1_zjh_tdb .section}
 
@@ -16,7 +16,7 @@
 
     -   数据可靠
 
-        默认开启数据持久化功能，数据全部落盘。支持数据备份功能，用户可以针对备份集回滚实例或者克隆实例，有效的解决数据误操作等问题。
+        默认开启数据持久化功能，数据全部落盘。支持数据备份功能，用户可以针对备份集回滚实例或者克隆实例，有效的解决数据误操作等问题。同时还具备同城容灾能力。
 
 -   **兼容性**
 
