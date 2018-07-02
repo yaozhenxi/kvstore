@@ -31,7 +31,7 @@
 ## 请求示例 {#section_d3l_4kw_wbb .section}
 
 ```
-https://r-kvstore.aliyuncs.com.com/
+https://r-kvstore.aliyuncs.com.com
 ?<公共请求参数>
 &Action= DescribeSecurityIps
 &InstanceId=657e361a074646d5
