@@ -2,7 +2,7 @@
 
 ## 描述 {#section_z1z_2kw_wbb .section}
 
-查询备份策略。
+修改备份策略。
 
 ## 请求参数 {#section_fn4_gkw_wbb .section}
 
@@ -34,9 +34,9 @@
 https://r-kvstore.aliyuncs.com、
 ?<公共请求参数>
 &Action= ModifyBackupPolicy
-&InstanceId= de5d88e34d004211
+&InstanceId=de5d88e34d004211
 &PreferredBackupTime=00:00Z-04:00Z
-&PreferredBackupPeriod= Saturday
+&PreferredBackupPeriod=Saturday
 ```
 
 ## 返回示例 {#section_hjp_tkw_wbb .section}
