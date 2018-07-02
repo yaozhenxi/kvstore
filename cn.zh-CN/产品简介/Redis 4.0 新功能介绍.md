@@ -94,9 +94,7 @@ Redis 4.0 之前只能通过 `info memory` 来了解 Redis 内部有限的内存
 
     -   对于 hash、list、set、sorted set 这些类型的 key，结果是采样计算的，可以通过 `SAMPLES` 来控制采样数量。
 
--   ```
-memory stats
-```
+-   `memory stats`
 
     ```
     27.0.0.1:6379> memory stats
