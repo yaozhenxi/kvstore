@@ -16,5 +16,5 @@
 
 关于云数据库 Redis 版的视频简介，请观看以下视频，时长约4分钟。
 
-[https://cloud.video.taobao.com/play/u/2313498479/e/6/t/1/p/1/46992034.mp4](https://cloud.video.taobao.com/play/u/2313498479/e/6/t/1/p/1/46992034.mp4)
+
 
