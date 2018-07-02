@@ -8,7 +8,7 @@
 
 您可以通过观看以下视频了解如何通过 DTS 将 ECS 上自建 Redis 迁移至云数据库 Redis 版。
 
-[https://cloud.video.taobao.com/play/u/3050941791/p/1/e/6/t/1/56540385.mp4](https://cloud.video.taobao.com/play/u/3050941791/p/1/e/6/t/1/56540385.mp4)
+ 
 
 ## 迁移类型简介 { .section}
 
