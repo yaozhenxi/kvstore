@@ -40,7 +40,7 @@ https://r-kvstore.aliyuncs.com
 ?<公共请求参数>
 &Action= SwitchNetwork
 &InstanceId=fdafas32323ed
-& TargetNetworkType=VPC
+&TargetNetworkType=VPC
 &VpcId=fadsfa
 &VSwitchId=131ed
 &RetainClassic=True
