@@ -42,7 +42,7 @@ DMS 支持两种模式对云数据库 Redis 版进行数据操作，分别为视
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/3148/2626_zh-CN.png)
 
-**命令窗口模式**
+## 命令窗口模式 { .section}
 
 命令窗口模视支持输入命令的模式来操作数据库，具体操作如下。
 
@@ -53,9 +53,9 @@ DMS 支持两种模式对云数据库 Redis 版进行数据操作，分别为视
 
 **说明：** 
 
-云数据库 Redis 版支持的命令请参考[支持的 Redis 命令](../cn.zh-CN/快速入门/支持的 Redis 命令.md#)。
+云数据库 Redis 版支持的命令请参考[支持的 Redis 命令](../../../../cn.zh-CN/快速入门/支持的 Redis 命令.md#)。
 
 您可以观看以下视频快速了解通过 DMS 对 Redis 进行数据操作，视频时长约3分钟。
 
-[https://cloud.video.taobao.com/play/u/3050941791/p/1/e/6/t/1/56540304.mp4](https://cloud.video.taobao.com/play/u/3050941791/p/1/e/6/t/1/56540304.mp4)
+
 
