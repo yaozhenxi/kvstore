@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
+|<公共请求参数\>|-|是|参见[公共请求参数](intl.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|系统规定参数，取值：DescribeInstanceAttribute|
 |InstanceId|String|是|实例 ID （全局唯一）|
 
@@ -30,8 +30,8 @@
 |Connections|Long|实例连接数限制；单位：个。|
 |ConnectionDomain|String|Redis 实例的连接域名（仅支持内网访问）。|
 |Port|Int|Redis 连接端口|
-|RegionId|String|申请的存储实例所在区域。参见 Redis 区域列表。|
-|ZoneId|String|RegionId 下的可用区编码。参见 Redis 区域列表。|
+|RegionId|String|申请的存储实例所在区域。参见 [DescribeRegions](intl.zh-CN/API 参考/实例管理/DescribeRegions.md#)。|
+|ZoneId|String|RegionId 下的可用区编码。参见 [DescribeRegions](intl.zh-CN/API 参考/实例管理/DescribeRegions.md#)。|
 |InstanceStatus|String| 实例状态：
 
  -   Normal：正常
