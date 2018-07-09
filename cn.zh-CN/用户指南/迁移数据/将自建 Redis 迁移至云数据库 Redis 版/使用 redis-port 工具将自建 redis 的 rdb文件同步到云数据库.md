@@ -2,7 +2,7 @@
 
 ## 下载 redis-port { .section}
 
-[redis-port地址](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/66008/cn_zh/1526545851725/redis-port)
+[redis-port地址](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/66006/cn_zh/1531121747155/redis-port%282%29)
 
 ## 使用示例 { .section}
 
