@@ -8,7 +8,7 @@ This API is used to change the instance type. For more information about the ins
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|Yes|See [EN-US\_TP\_3172.md\#section\_hph\_dhp\_wbb](intl.en-US/API reference/Common Parameters.md#section_hph_dhp_wbb).|
+|<Common request parameters\>|-|Yes|See [Public parameters](intl.en-US/API Reference/Common Parameters.md#section_hph_dhp_wbb).|
 |Action|String|Yes|Operation API name. Value: ModifyInstanceSpec.|
 |InstanceId|String|Yes|Instance ID \(globally unique\)|
 |InstanceClass|String|Yes|Type of the applied ApsaraDB for Redis instance. For more information, see Instance specifications.|
@@ -17,7 +17,7 @@ This API is used to change the instance type. For more information about the ins
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common return parameters\>|-|See [EN-US\_TP\_3172.md\#section\_rjr\_zgp\_wbb](intl.en-US/API reference/Common Parameters.md#section_rjr_zgp_wbb).|
+|<Common return parameters\>|-|See [Public return parameters](intl.en-US/API Reference/Common Parameters.md#section_rjr_zgp_wbb).|
 |Orderid|String|Order ID.|
 
 ## Request example {#section_d3l_4kw_wbb .section}
