@@ -19,6 +19,10 @@ redis-sync-manager的命令如下：
 ./redis-sync-manager --from=src_host:src_port --target=dst_host:dst_port [--auth=dst_password] [--filterkey="str1|str2|str3"] [--targetdb=DB] [--rewrite] [--bigkeysize=SIZE] [--logfile=REDISPORT.LOG] [--httpport=HTTPPORT] [--sync-parallel=INT] [--sync-role="master|slave"] 
 ```
 
+**工作原理**
+
+`redis-sync-manager`和`src_host:src_port`交互，首先通过`cluster nodes`命令获取集群拓扑信息。然后基于`--sync-role`参数获得待同步分片的`IP:PORT`列表。最后调用`redis-port`进行数据同步（全量数据同步的并发度依赖`--sync-parallel`配置，所有分片的增量数据均会保持同步）。
+
 **常用参数**
 
 redis-sync-manager的如下参数和redis-port的参数的用法基本一致：
@@ -55,5 +59,9 @@ redis-sync-manager的如下参数和redis-port的参数的用法不同，用户�
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15449/6883_zh-CN.png)
 
-![]()
+图片中的标注解释如下：
+
+1.  打印每个分片的同步信息和同步状态。
+2.  根据传递的`--sync-role`参数，对每个分片选择一个`IP:Port`，逐一打印出来。
+3.  每个分片的同步状态会打印到日志文件当中。
 
