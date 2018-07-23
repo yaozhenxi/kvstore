@@ -8,7 +8,7 @@ Redis 4.0 的 Lazyfree 机制可以避免 `del`、`flushdb`、`flushall`、`rena
 
 **unlink**
 
-在 Redis 4.0 之前，redis 执行 `del` 命令会在释放掉 key 的所有内存以后才会返回 `OK`。如果 key 比较大（比如说一个 hash 里有1000万条数据），其他连接可能要等待很久。为了兼容已有的 `del` 语义，Redis 4.0 引入 `unlink` 命令，效果以及用法和 `del` 完全一样，但内存释放动作放到后台线程中执行。
+在 Redis 4.0 之前，redis 执行 `del` 命令，只有在释放掉 key 的所有内存以后才会返回 `OK`。如果 key 比较大（比如说一个 hash 里有1000万条数据），其他连接需要等待较长时间。为了兼容已有的 `del` 语义，Redis 4.0 引入 `unlink` 命令，效果以及用法和 `del` 完全一样，但内存释放动作放到后台线程中执行。
 
 ```
 UNLINK key [key ...]
@@ -88,7 +88,9 @@ Redis 4.0 之前只能通过 `info memory` 来了解 Redis 内部有限的内存
 
 -   `memory usage`
 
-    `usage` 子命令可以查看某个 key 在 redis 内部实际占用多少内存。注意以下两点说明：
+    `usage` 子命令可以查看某个 key 在 redis 内部实际占用多少内存。
+
+    **说明：** 
 
     -   不光 key、value 需要占用内存，Redis 管理这些数据还需要一部分内存。
 
