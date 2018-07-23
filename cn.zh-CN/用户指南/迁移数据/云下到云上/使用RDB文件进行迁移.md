@@ -1,5 +1,7 @@
 # 使用RDB文件进行迁移 {#concept_xnh_dk1_wdb .concept}
 
+用户可以使用 redis-port 工具，通过RDB文件将自建Redis迁移到云数据库Redis版。
+
 ## 下载 redis-port { .section}
 
 [redis-port地址](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/66006/cn_zh/1531121747155/redis-port%282%29)
