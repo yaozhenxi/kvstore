@@ -7,8 +7,6 @@
 |CreateInstance|创建实例|
 |DeleteInstance|释放实例|
 |ModifyInstanceSpec|变更实例|
-|RenewInstance|续费实例|
-|RenewMultiInstance|批量续费实例|
 |TransformToPrePaid|付费类型转换|
 
 ## 实例管理接口 { .section}
@@ -49,10 +47,4 @@
 |---|--|
 |DescribeInstanceConfig|查看实例参数配置|
 |ModifyInstanceConfig|修改参数配置|
-
-## 相关文档 { .section}
-
--   [API资源导航](https://developer.aliyun.com/)
--   [API Explorer](https://api.aliyun.com/)
--   [API错误中心](https://error-center.aliyun.com/)
 
