@@ -8,20 +8,20 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
+|<公共请求参数\>|-|是|参见[公共请求参数](intl.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|系统规定参数，取值：DescribeBackups。|
 |InstanceId|String|是|实例 ID|
 |BackupId|String|否|备份集 ID|
 |PagSize|String|是|每页记录数，取值：30/50/100。|
 |PageNumber|String|是|页码，大于0，且不超过 Integer 的最大值。|
-|StrartTime|String|是|查询开始时间|
+|StartTime|String|是|查询开始时间|
 |EndTime|String|是|查询结束时间|
 
 ## 返回参数 {#section_e4w_jkw_wbb .section}
 
 |名称|类型|描述|
 |--|--|--|
-|<公共返回参数\>|-|参见[公共返回参数](cn.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
+|<公共返回参数\>|-|参见[公共返回参数](intl.zh-CN/API 参考/公共参数.md#section_rjr_zgp_wbb)。|
 |Backups|List|由 Backup 组成的数组|
 |PageNumber|Integer|页码|
 |TotalCount|Integer|备份总个数|
@@ -69,7 +69,6 @@ https://r-kvstore.aliyuncs.com
 ## 返回示例 {#section_hjp_tkw_wbb .section}
 
 ``` {#codeblock_ylw_djd_xdb}
-{
 {
     " Backups " : {
         " Backup " : [{
