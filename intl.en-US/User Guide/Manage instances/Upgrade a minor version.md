@@ -15,16 +15,8 @@ Deep kernel optimization is performed on ApsaraDB for Redis to fix security vuln
 2.  Click the instance ID or **Manage** to go to the Instance Information page.
 3.  Click **Upgrade Minor Version** in the Basic Information column.
 
-    ![](images/2170_en-US.png)
-
 4.  Click **Upgrade Now** in the Upgrade Minor Version window.
 
-    ![](images/2171_en-US.png)
-
-    On the Basic Information page, the instance status shows **Upgrading minor version…**. Upgrade is completed when the instance status shows **In use**.
-
-    ![](images/2173_en-US.png)
-
-    ![](images/2174_en-US.png)
+    On the Basic Information page, the instance status shows **Upgrading minor version…** . Upgrade is completed when the instance status shows **In use**.
 
 
