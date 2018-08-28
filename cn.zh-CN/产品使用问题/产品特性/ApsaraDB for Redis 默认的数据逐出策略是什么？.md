@@ -2,27 +2,27 @@
 
 ApsaraDB for Redis 实例的默认逐出策略是 volatile-LRU， 如需修改，可以登录控制台在系统参数中修改。
 
--   **VolatileLRU**
+-   **volatile-lru**
 
     按照 LRU 算法逐出原有数据，但仅逐出设置了过期时间的数据。
 
--   **VolatileTTL**
+-   **volatile-ttl**
 
     仅逐出设置了过期时间的数据，并且是按照 TTL 由小到大的顺序进行逐出。
 
--   **AllKeysLRU**
+-   **allkeys-lru**
 
     按照 LRU 算法逐出原有数据。
 
--   **VolatileRandom**
+-   **volatile-random**
 
     随机逐出原有数据，但仅逐出设置了过期时间的数据。
 
--   **AllKeysRandom**
+-   **allkeys-random**
 
     随机逐出原有数据。
 
--   **NoEviction**
+-   **noeviction**
 
     不逐出任何数据，新数据的写入会得到一个错误信息。
 
