@@ -10,6 +10,7 @@
 |--|--|----|--|
 |<公共请求参数\>|-|是|参见[公共请求参数](cn.zh-CN/API 参考/公共参数.md#section_hph_dhp_wbb)。|
 |Action|String|是|系统规定参数，取值： DescribeRegions。|
+|AcceptLanguage|String|否|系统规定参数，取值： zh-CN 或 en-US 或 ja 三者之一，分别表示：中文、英文、日语，如参数值错误或为空，默认为英文。如不填写该参数，则向旧API保持兼容，默认为中文|
 
 ## 返回参数 {#section_e4w_jkw_wbb .section}
 
@@ -25,6 +26,10 @@ https://r-kvstore.aliyuncs.com、
 ?<公共请求参数>
 &Action=DescribeRegions
 ```
+或 https://r-kvstore.aliyuncs.com、
+?<公共请求参数>
+&Action=DescribeRegions&AcceptLanguage=en-US
+```
 
 ## 返回示例 {#section_hjp_tkw_wbb .section}
 
@@ -33,22 +38,25 @@ https://r-kvstore.aliyuncs.com、
     "RequestId":"535A88D3-5408-4B29-AFD4-07319D97EBC4",
     "RegionIds":
     {
-            {
-                "ZoneIds":"cn-qingdao-b",
-                "RegionId":"cn-qingdao",
-            },
-            {
-                "ZoneIds":"cn-shenzhen-a",
-                "RegionId":"cn-shenzhen",
-            },
-            {
-                "ZoneIds":"cn-hangzhou-d,cn-hangzhou-b",
-                "RegionId":"cn-hangzhou"
-            },
-            {
-                "ZoneIds":"cn-beijing-a",
-                "RegionId":"cn-beijing"
-            }
+                {
+                    "RegionId": "eu-central,
+                    "ZoneIdList": [
+                        "eu-central-a",
+                        "eu-central-b"
+                    ],
+                    "RegionEndpoint": "xxxyyyy.aliyuncs.com",
+                    "ZoneIds": "eu-central-a,eu-central-b",
+                    "LocalName": "德国（法兰克福）"
+                },
+              {
+                "RegionId": "cn-chengdu-1",
+                "ZoneIdList": [
+                  "cn-chengdu-a"
+                ],
+                "RegionEndpoint": "xxxxx.aliyuncs.com",
+                "ZoneIds": "cn-chengdu-xa",
+                "LocalName": "西南（成都）"
+              },
     }
 }
 ```
